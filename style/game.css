@@ -142,6 +142,7 @@ body {
     margin-right: 10px;
 
 }
+
 .banner-button2 {
     display: inline-flex;
     padding: 21px 40px;
@@ -156,23 +157,160 @@ body {
 
 /* <!----------------------------------- 2nd section (We are gamer) ---------------------> */
 
-.We-are-gamer-section{
+.We-are-gamer-section {
     display: flex;
-   max-width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
-.We-are-gamer-img{
+
+.We-are-gamer-img {
     width: 60%;
 }
-.We-are-gamer-text{
+
+.We-are-gamer-text {
     width: 32%;
     text-align: right;
     padding-left: 40px;
 }
-.We-are-gamer-text h2{
+
+.We-are-gamer-text h2 {
     font-size: 45px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* <!----------------------------------- 3nd section end(Online Games Funny Videos) ---------------------> */
+
+.Online-Games-Funny-Videos {
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.Online-Games-text {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Online-Games-text h2 {
+
+    font-size: 50px;
+}
+
+.Online-Games-text .Funny-Videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Online-Games-Videos-sec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 50px;
+}
+/* <!----------------------------------- 4th section (Play-Instantly) ---------------------> */
+
+
+.Play-Instantly {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+}
+
+.Play-Instantly-text {
+    text-align: right;
+    padding: 240px;
+    margin-top: -150px;
+
+}
+
+.Play-Instantly-text h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}
+
+.Play-Instantly-img .img2 {
+    position: relative;
+    top: -260px; left: -140px;
+}
+.Play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+        /* <!----------------------------------- 5th section (many icon) ---------------------> */
+.icon-button{
+    background-color: #FFF9FC;
+    height: 400px;
+}
+.icon-part1 {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: center; 
+    padding-top: 80px;
+}
+.icon-part2 {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center; 
+    padding-top: 50px;
+}
+.icon-part1 > div {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+
+}
+.icon-part2 > div {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+}
+.icon-part1 > div p{
+    padding-left: 20px;
+}
+.icon-part2 > div p{
+    padding-left: 20px;
+}
+/* hover  */
+.icon-part1 > div {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+
+}
+.icon-part1 > div:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+}
+.icon-part2 > div:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+}
+.icon-part1 > div p:hover{
+color: #FF42A5;
+}
+.icon-part2 > div p:hover{
+    color: #FF42A5;
+    }
